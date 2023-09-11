@@ -3,23 +3,55 @@
     height: 300px;
     overflow: hidden;
 }
+body {
+    margin: 0;
+    font-family: cursive;
+}
+
+#home {
+    text-align: center;
+    height: 500px;
+    /* background-color: rgb(209, 233, 255); */
+    justify-content: center;
+    color:rgb(45, 45, 45);
+    
+}
+#home h1 {
+    font-style: italic;
+
+    padding-top: 125px;
+    font-size: 500%;
+    text-transform: capitalize;
+
+}
+
+#home p {
+    margin-top: -40px;
+    color:rgb(126, 126, 126)
+}
 
 ul.nav-bar {
+    margin: 0;
+    width:100%;
+    position: fixed;
+
     list-style: none;
     display: flex;
-    background-color: rgb(27, 27, 27);
+    opacity: 80%;
+    background-color: rgb(234, 234, 234);
 }
 
 .nav-bar li {
-    padding: 2%;
+    padding: 10px;
 }
 
 .nav-bar li:hover {
-    background-color: rgb(69, 69, 69);
+    background-color: rgb(182, 182, 182)
 }
 
 .nav-bar a {
-    color: rgb(231, 226, 226);
+    color: rgb(50, 50, 50);
+    
     text-decoration: none;
     white-space: nowrap;
     text-transform: capitalize;
